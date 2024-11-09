@@ -1,5 +1,5 @@
 type User = {
-  readonly _id: string;
+  readonly _id: string; //if id would be array, then we can push values to array in case of readonly.
   name: string;
   email: string;
   isActive: boolean;
